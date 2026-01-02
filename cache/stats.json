@@ -6,15 +6,39 @@
   "following": 12,
   "public_repos": 5,
   "total_stars": 0,
-  "top_languages": [
+  "language_percentages": [
     [
       "HCL",
-      1
+      53.04572686978174
+    ],
+    [
+      "Shell",
+      43.54464175089827
     ],
     [
       "Python",
-      1
+      3.409631379319992
     ]
   ],
-  "updated_at": "January 02, 2026 at 04:13 AM UTC"
+  "top_repos": [
+    {
+      "name": "gateway_eks",
+      "description": "[PoC] EKS deployment of AI-Governance stack",
+      "stars": 0,
+      "language": "HCL"
+    },
+    {
+      "name": "kholcomb",
+      "description": "My personal repository CV",
+      "stars": 0,
+      "language": "Python"
+    },
+    {
+      "name": "Kyros",
+      "description": "MCP Server Detection",
+      "stars": 0,
+      "language": "N/A"
+    }
+  ],
+  "updated_at": "January 01, 2026 at 08:48 PM UTC"
 }
