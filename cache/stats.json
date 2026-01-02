@@ -4,20 +4,28 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 5,
+  "public_repos": 6,
   "total_stars": 0,
   "language_percentages": [
     [
-      "HCL",
-      51.123805415066506
+      "C++",
+      33.46964518000034
     ],
     [
       "Shell",
-      41.96695800222642
+      28.692498718908904
+    ],
+    [
+      "HCL",
+      14.947601966404441
     ],
     [
       "Python",
-      6.909236582707071
+      14.304409768953107
+    ],
+    [
+      "JavaScript",
+      4.533879932200717
     ]
   ],
   "top_repos": [
@@ -28,17 +36,17 @@
       "language": "HCL"
     },
     {
+      "name": "k8s_gaming",
+      "description": "Interactive Kubernetes learning game with real-time cluster visualization",
+      "stars": 0,
+      "language": "Shell"
+    },
+    {
       "name": "kholcomb",
       "description": "My personal repository CV",
       "stars": 0,
       "language": "Python"
-    },
-    {
-      "name": "Kyros",
-      "description": "MCP Server Detection",
-      "stars": 0,
-      "language": "N/A"
     }
   ],
-  "updated_at": "January 02, 2026 at 04:52 AM UTC"
+  "updated_at": "January 02, 2026 at 05:21 AM UTC"
 }
