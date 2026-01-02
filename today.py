@@ -9,7 +9,6 @@ import json
 from datetime import datetime
 from typing import Dict, Any
 import os
-from PIL import Image
 import html
 
 
@@ -78,44 +77,6 @@ class GitHubStats:
         return stats
 
 
-def image_to_ascii(image_path: str, width: int = 25) -> str:
-    """Convert image to ASCII art"""
-    # ASCII characters from darkest to lightest
-    ascii_chars = ['@', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.', ' ']
-
-    try:
-        # Open and resize image
-        img = Image.open(image_path)
-
-        # Calculate aspect ratio and new height
-        aspect_ratio = img.height / img.width
-        height = int(width * aspect_ratio * 0.55)  # 0.55 adjusts for character height
-
-        # Resize and convert to grayscale
-        img = img.resize((width, height))
-        img = img.convert('L')  # Convert to grayscale
-
-        # Convert pixels to ASCII
-        ascii_art = []
-        pixels = list(img.getdata())
-
-        for i in range(0, len(pixels), width):
-            row = pixels[i:i+width]
-            ascii_row = ''.join([ascii_chars[min(pixel // 25, len(ascii_chars)-1)] for pixel in row])
-            ascii_art.append(ascii_row)
-
-        return '\n'.join(ascii_art)
-    except Exception as e:
-        print(f"Error converting image to ASCII: {e}")
-        # Fallback to security shield
-        return '''  ╔═══════╗
-  ║ ☁️ 🔐 ║
-  ║  ═══  ║
-  ║ ║   ║ ║
-  ║ ╚═══╝ ║
-  ╚═══════╝'''
-
-
 def generate_svg(stats: Dict[str, Any], theme: str = 'light') -> str:
     """Generate terminal-style SVG graphic with stats"""
 
@@ -137,24 +98,8 @@ def generate_svg(stats: Dict[str, Any], theme: str = 'light') -> str:
         ascii_color = '#c9d1d9'
         comment_color = '#8b949e'
 
-    # ASCII art - Convert photo to ASCII
-    photo_path = '1750104051410.jpg'
-    if os.path.exists(photo_path):
-        ascii_art = image_to_ascii(photo_path, width=30)
-    else:
-        # Fallback to security shield
-        ascii_art = '''  ╔═══════╗
-  ║ ☁️ 🔐 ║
-  ║  ═══  ║
-  ║ ║   ║ ║
-  ║ ╚═══╝ ║
-  ╚═══════╝'''
-
-    # Create ASCII art lines
+    # No ASCII art - clean minimal design
     ascii_lines = []
-    for i, line in enumerate(ascii_art.strip().split('\n')):
-        y_pos = 100 + (i * 14)  # Tighter line spacing for ASCII art
-        ascii_lines.append(f'<text x="50" y="{y_pos}" class="ascii">{html.escape(line)}</text>')
 
     # Generate info lines (terminal style)
     info_lines = []
@@ -171,58 +116,66 @@ def generate_svg(stats: Dict[str, Any], theme: str = 'light') -> str:
         ('Role', 'Senior Security Engineer', None),
         ('Certs', 'CCSP | CISSP', None),
         ('', '', text_color),  # Empty line
-        ('Repos', str(stats['public_repos']), None),
-        ('Stars', f"⭐ {stats['total_stars']}", None),
-        ('Followers', f"👥 {stats['followers']}", None),
-        ('', '', text_color),  # Empty line
     ]
 
-    # Add core skills
+    # Add core skills - expanded
     info_data.extend([
-        ('Skills', '', None),
+        ('Security', '', None),
         ('', '  • DevSecOps & Security Architecture', None),
         ('', '  • Cloud Security (AWS, Azure)', None),
         ('', '  • Threat Modeling & Risk Assessment', None),
         ('', '  • Incident Response & Investigation', None),
         ('', '  • Container Security & Orchestration', None),
         ('', '  • Vulnerability Management', None),
+        ('', '  • Application Security', None),
+        ('', '  • Compliance & Standards Development', None),
         ('', '', text_color),  # Empty line
     ])
 
-    # Add technical tools
+    # Add languages section
     info_data.extend([
-        ('Tools', '', None),
+        ('Languages', '', None),
         ('', '  • Python | PowerShell | Bash', None),
-        ('', '  • IAM | Security Automation', None),
-        ('', '  • SIEM | Log Analysis', None),
     ])
 
-    # Add languages if available
+    # Add detected languages from repos
     if stats['top_languages']:
-        info_data.append(('', '', text_color))
-        info_data.append(('Code', '', None))
         for lang, count in stats['top_languages'][:5]:
-            info_data.append(('', f"  • {lang} ({count} repos)", None))
+            if lang.lower() not in ['python']:  # Avoid duplicates
+                info_data.append(('', f"  • {lang}", None))
+
+    info_data.extend([
+        ('', '', text_color),
+    ])
+
+    # Add tools & platforms
+    info_data.extend([
+        ('Tools', '', None),
+        ('', '  • IAM & Identity Management', None),
+        ('', '  • SIEM & Log Analysis', None),
+        ('', '  • Security Automation & CI/CD', None),
+        ('', '  • Containers & Kubernetes', None),
+        ('', '  • Infrastructure as Code', None),
+    ])
 
     for i, (key, value, custom_color) in enumerate(info_data):
         y_pos = y_start + (i * line_height)
 
         if custom_color:
             # Special formatting (separator or empty line)
-            info_lines.append(f'<text x="300" y="{y_pos}" class="comment">{html.escape(key)}</text>')
+            info_lines.append(f'<text x="50" y="{y_pos}" class="comment">{html.escape(key)}</text>')
         elif key == '':
             # Value only (for languages list or header)
-            info_lines.append(f'<text x="300" y="{y_pos}" class="value">{html.escape(value)}</text>')
+            info_lines.append(f'<text x="50" y="{y_pos}" class="value">{html.escape(value)}</text>')
         else:
             # Key-value pair
-            info_lines.append(f'<text x="300" y="{y_pos}" class="key">{html.escape(key)}:</text>')
-            info_lines.append(f'<text x="480" y="{y_pos}" class="value">{html.escape(value)}</text>')
+            info_lines.append(f'<text x="50" y="{y_pos}" class="key">{html.escape(key)}:</text>')
+            info_lines.append(f'<text x="250" y="{y_pos}" class="value">{html.escape(value)}</text>')
 
     # Join all lines
-    ascii_art_svg = '\n        '.join(ascii_lines)
     info_lines_svg = '\n        '.join(info_lines)
 
-    svg = f'''<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+    svg = f'''<svg width="900" height="750" xmlns="http://www.w3.org/2000/svg">
     <style>
         text {{
             font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
@@ -230,9 +183,8 @@ def generate_svg(stats: Dict[str, Any], theme: str = 'light') -> str:
         }}
         .ascii {{
             fill: {ascii_color};
-            font-size: 11px;
+            font-size: 14px;
             white-space: pre;
-            letter-spacing: 1px;
         }}
         .key {{
             fill: {key_color};
@@ -256,16 +208,11 @@ def generate_svg(stats: Dict[str, Any], theme: str = 'light') -> str:
     </style>
 
     <!-- Background -->
-    <rect width="900" height="700" fill="{bg_color}" rx="10"/>
-    <rect width="880" height="680" x="10" y="10" fill="{bg_color}" stroke="{border_color}" stroke-width="2" rx="8"/>
+    <rect width="900" height="750" fill="{bg_color}" rx="10"/>
+    <rect width="880" height="730" x="10" y="10" fill="{bg_color}" stroke="{border_color}" stroke-width="2" rx="8"/>
 
     <!-- Title -->
     <text x="50" y="60" class="header">💻 {html.escape(display_name)}'s GitHub Profile</text>
-
-    <!-- ASCII Art -->
-    <g>
-        {ascii_art_svg}
-    </g>
 
     <!-- Info Section -->
     <g>
@@ -273,7 +220,7 @@ def generate_svg(stats: Dict[str, Any], theme: str = 'light') -> str:
     </g>
 
     <!-- Footer -->
-    <text x="50" y="670" class="footer">Last updated: {html.escape(stats['updated_at'])}</text>
+    <text x="50" y="720" class="footer">Last updated: {html.escape(stats['updated_at'])}</text>
 </svg>'''
 
     return svg
