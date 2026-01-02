@@ -401,6 +401,41 @@ def generate_svg(stats: Dict[str, Any], theme: str = 'light') -> str:
     return svg
 
 
+def update_readme_cache_busting(timestamp: str):
+    """Update README.md with new cache-busting parameters"""
+    readme_path = 'README.md'
+
+    if not os.path.exists(readme_path):
+        print(f"Warning: {readme_path} not found, skipping cache-busting update")
+        return
+
+    with open(readme_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Update all SVG references with new timestamp
+    # Match patterns like: dark_mode.svg or dark_mode.svg?v=anything
+    import re
+
+    # Update dark mode SVG
+    content = re.sub(
+        r'dark_mode\.svg(\?v=[^"]+)?',
+        f'dark_mode.svg?v={timestamp}',
+        content
+    )
+
+    # Update light mode SVG
+    content = re.sub(
+        r'light_mode\.svg(\?v=[^"]+)?',
+        f'light_mode.svg?v={timestamp}',
+        content
+    )
+
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+    print(f"Updated README.md cache-busting parameters to ?v={timestamp}")
+
+
 def main():
     username = 'kholcomb'
     token = os.getenv('GITHUB_TOKEN')
@@ -433,6 +468,11 @@ def main():
         with open('cache/stats.json', 'w') as f:
             json.dump(stats, f, indent=2)
         print("Saved stats cache")
+
+        # Update README with cache-busting parameters
+        # Use a simpler timestamp format for the query parameter
+        cache_timestamp = datetime.now().strftime('%Y-%m-%d-%H%M')
+        update_readme_cache_busting(cache_timestamp)
 
         print("\nAll done!")
 
