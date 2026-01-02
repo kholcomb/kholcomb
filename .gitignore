@@ -8,3 +8,5 @@ env/
 .venv
 *.pdf
 *.jpg
+*.jpeg
+*.png

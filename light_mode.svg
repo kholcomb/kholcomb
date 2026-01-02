@@ -1,0 +1,101 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        text {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 16px;
+        }
+        .ascii {
+            fill: #24292f;
+            font-size: 11px;
+            white-space: pre;
+            letter-spacing: 1px;
+        }
+        .key {
+            fill: #953800;
+            font-weight: 600;
+        }
+        .value {
+            fill: #0a3069;
+        }
+        .comment {
+            fill: #c2cfde;
+        }
+        .header {
+            fill: #24292f;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .footer {
+            fill: #c2cfde;
+            font-size: 12px;
+        }
+    </style>
+
+    <!-- Background -->
+    <rect width="900" height="700" fill="#f6f8fa" rx="10"/>
+    <rect width="880" height="680" x="10" y="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2" rx="8"/>
+
+    <!-- Title -->
+    <text x="50" y="60" class="header">💻 kholcomb's GitHub Profile</text>
+
+    <!-- ASCII Art -->
+    <g>
+        <text x="50" y="100" class="ascii">%%%%%%%%%%%%%%%%%%%%%%%%%%SSSS</text>
+        <text x="50" y="114" class="ascii">SSSSSSSSSSSSS###SSSSSSSSSSSSSS</text>
+        <text x="50" y="128" class="ascii">SSSSSSSS###S%%S#@@@#SS#SSSSSSS</text>
+        <text x="50" y="142" class="ascii">SSSSS%S##?+;;;;+*?S@#SSSSSSS%?</text>
+        <text x="50" y="156" class="ascii">SSSSS%S@#*+;;;;;;;+S@SSSSSSS%+</text>
+        <text x="50" y="170" class="ascii">SSSSSSS@S****;;*?**%#SSSSSSSS#</text>
+        <text x="50" y="184" class="ascii">SSSSSSS%?++**+;**++*?SSSSSSSS#</text>
+        <text x="50" y="198" class="ascii">SSSSSSS?*+;;++++;;;+*SSSSSSSSS</text>
+        <text x="50" y="212" class="ascii">SSSSSSSS?+++*+++**+*SSSSSSSSSS</text>
+        <text x="50" y="226" class="ascii">SSSSSSSSS?+++;;;+++%###SSSSS##</text>
+        <text x="50" y="240" class="ascii">SSSSSSSSSS?*++;++**?S#########</text>
+        <text x="50" y="254" class="ascii">##########?*******+;+S########</text>
+        <text x="50" y="268" class="ascii">SSSSSSSSSS***+++++;::%##S#####</text>
+        <text x="50" y="282" class="ascii">SSS#SSS##%;;++;;;:::;SSSSS###S</text>
+        <text x="50" y="296" class="ascii">SSSSS####*::;***;:::*SSSS###SS</text>
+        <text x="50" y="310" class="ascii">SS######%;;;%##S+:::?SSSSSSSSS</text>
+    </g>
+
+    <!-- Info Section -->
+    <g>
+        <text x="300" y="100" class="comment"></text>
+        <text x="300" y="124" class="comment">--------------------------------------------------</text>
+        <text x="300" y="148" class="key">Name:</text>
+        <text x="480" y="148" class="value">kholcomb</text>
+        <text x="300" y="172" class="key">Role:</text>
+        <text x="480" y="172" class="value">Senior Security Engineer</text>
+        <text x="300" y="196" class="key">Certs:</text>
+        <text x="480" y="196" class="value">CCSP | CISSP</text>
+        <text x="300" y="220" class="comment"></text>
+        <text x="300" y="244" class="key">Repos:</text>
+        <text x="480" y="244" class="value">4</text>
+        <text x="300" y="268" class="key">Stars:</text>
+        <text x="480" y="268" class="value">⭐ 0</text>
+        <text x="300" y="292" class="key">Followers:</text>
+        <text x="480" y="292" class="value">👥 2</text>
+        <text x="300" y="316" class="comment"></text>
+        <text x="300" y="340" class="key">Skills:</text>
+        <text x="480" y="340" class="value"></text>
+        <text x="300" y="364" class="value">  • DevSecOps &amp; Security Architecture</text>
+        <text x="300" y="388" class="value">  • Cloud Security (AWS, Azure)</text>
+        <text x="300" y="412" class="value">  • Threat Modeling &amp; Risk Assessment</text>
+        <text x="300" y="436" class="value">  • Incident Response &amp; Investigation</text>
+        <text x="300" y="460" class="value">  • Container Security &amp; Orchestration</text>
+        <text x="300" y="484" class="value">  • Vulnerability Management</text>
+        <text x="300" y="508" class="comment"></text>
+        <text x="300" y="532" class="key">Tools:</text>
+        <text x="480" y="532" class="value"></text>
+        <text x="300" y="556" class="value">  • Python | PowerShell | Bash</text>
+        <text x="300" y="580" class="value">  • IAM | Security Automation</text>
+        <text x="300" y="604" class="value">  • SIEM | Log Analysis</text>
+        <text x="300" y="628" class="comment"></text>
+        <text x="300" y="652" class="key">Code:</text>
+        <text x="480" y="652" class="value"></text>
+        <text x="300" y="676" class="value">  • HCL (1 repos)</text>
+    </g>
+
+    <!-- Footer -->
+    <text x="50" y="670" class="footer">Last updated: January 01, 2026 at 07:44 PM UTC</text>
+</svg>
