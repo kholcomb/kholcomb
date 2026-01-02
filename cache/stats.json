@@ -4,52 +4,49 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 7,
+  "public_repos": 6,
   "total_stars": 0,
   "language_percentages": [
     [
-      "Shell",
-      32.873644037087644
-    ],
-    [
       "C++",
-      24.699219749934343
+      33.4243974640008
     ],
     [
-      "Python",
-      19.7212609000635
+      "Shell",
+      28.653709241865805
     ],
     [
       "HCL",
-      11.030714658528396
+      14.92739425744868
+    ],
+    [
+      "Python",
+      14.420261900289837
     ],
     [
       "JavaScript",
-      6.691633338984911
+      4.527750566010997
     ]
   ],
   "top_repos": [
     {
-      "name": "DevSecOps_Arena",
-      "description": "Gamified Security Arena for building DevSecOps skillsets",
-      "stars": 0,
-      "language": "Shell",
-      "url": "https://github.com/kholcomb/DevSecOps_Arena"
-    },
-    {
       "name": "gateway_eks",
       "description": "[PoC] EKS deployment of AI-Governance stack",
       "stars": 0,
-      "language": "HCL",
-      "url": "https://github.com/kholcomb/gateway_eks"
+      "language": "HCL"
     },
     {
       "name": "k8s_gaming",
       "description": "Interactive Kubernetes learning game with real-time cluster visualization",
       "stars": 0,
-      "language": "Shell",
-      "url": "https://github.com/kholcomb/k8s_gaming"
+      "language": "Shell"
+    },
+    {
+      "name": "kholcomb",
+      "description": "My personal repository CV",
+      "stars": 0,
+      "language": "Python"
     }
   ],
-  "updated_at": "January 02, 2026 at 10:34 AM UTC"
+  "updated_at": "January 02, 2026 at 05:46 AM UTC"
 }
