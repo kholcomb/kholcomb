@@ -9,15 +9,15 @@
   "language_percentages": [
     [
       "HCL",
-      53.04572686978174
+      51.123805415066506
     ],
     [
       "Shell",
-      43.54464175089827
+      41.96695800222642
     ],
     [
       "Python",
-      3.409631379319992
+      6.909236582707071
     ]
   ],
   "top_repos": [
@@ -40,5 +40,5 @@
       "language": "N/A"
     }
   ],
-  "updated_at": "January 01, 2026 at 08:48 PM UTC"
+  "updated_at": "January 02, 2026 at 04:52 AM UTC"
 }
