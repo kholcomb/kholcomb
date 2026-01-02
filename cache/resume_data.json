@@ -1,0 +1,49 @@
+{
+  "personal": {
+    "name": "Kyle Holcomb",
+    "title": "Senior Security Engineer",
+    "bio": "Claude Code Enthusiast specializing in AI/LLM Security, Cloud Security, and DevSecOps",
+    "location": "Pacific Standard Time",
+    "status": "Open to opportunities",
+    "certifications": [
+      {
+        "name": "CCSP",
+        "issuer": "ISC2",
+        "credential": "521659"
+      },
+      {
+        "name": "CISSP",
+        "issuer": "ISC2",
+        "credential": "521659"
+      }
+    ],
+    "social": {
+      "github": "kholcomb",
+      "linkedin": "kyleholcomb"
+    }
+  },
+  "skills": {
+    "Security Engineering": [
+      "AI/LLM Security & Safety Engineering",
+      "Security Automation & DevSecOps",
+      "Cloud-Native Security Architecture",
+      "Cloud Security (AWS, Azure)",
+      "Threat Modeling & Risk Assessment",
+      "Incident Response & Investigation"
+    ],
+    "Cloud & Infrastructure": [
+      "Container Security & Orchestration",
+      "Vulnerability Management",
+      "Application Security",
+      "IAM & Identity Management",
+      "Containers & Kubernetes",
+      "Infrastructure as Code"
+    ],
+    "Security Operations": [
+      "Compliance & Standards Development",
+      "SIEM & Log Analysis",
+      "Security Automation & CI/CD"
+    ]
+  },
+  "updated_at": "2026-01-02T10:34:03.803756"
+}

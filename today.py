@@ -12,6 +12,49 @@ import os
 import html
 
 
+# Personal information for resume
+PERSONAL_INFO = {
+    'name': 'Kyle Holcomb',
+    'title': 'Senior Security Engineer',
+    'bio': 'Claude Code Enthusiast specializing in AI/LLM Security, Cloud Security, and DevSecOps',
+    'location': 'Pacific Standard Time',
+    'status': 'Open to opportunities',
+    'certifications': [
+        {'name': 'CCSP', 'issuer': 'ISC2', 'credential': '521659'},
+        {'name': 'CISSP', 'issuer': 'ISC2', 'credential': '521659'}
+    ],
+    'social': {
+        'github': 'kholcomb',
+        'linkedin': 'kyleholcomb'
+    }
+}
+
+# Skills organized by category (extracted from SVG data)
+SKILLS = {
+    'Security Engineering': [
+        'AI/LLM Security & Safety Engineering',
+        'Security Automation & DevSecOps',
+        'Cloud-Native Security Architecture',
+        'Cloud Security (AWS, Azure)',
+        'Threat Modeling & Risk Assessment',
+        'Incident Response & Investigation'
+    ],
+    'Cloud & Infrastructure': [
+        'Container Security & Orchestration',
+        'Vulnerability Management',
+        'Application Security',
+        'IAM & Identity Management',
+        'Containers & Kubernetes',
+        'Infrastructure as Code'
+    ],
+    'Security Operations': [
+        'Compliance & Standards Development',
+        'SIEM & Log Analysis',
+        'Security Automation & CI/CD'
+    ]
+}
+
+
 class GitHubStats:
     def __init__(self, username: str, token: str = None):
         self.username = username
@@ -77,7 +120,8 @@ class GitHubStats:
                 'name': r['name'],
                 'description': r['description'] or 'No description',
                 'stars': r['stargazers_count'],
-                'language': r['language'] or 'N/A'
+                'language': r['language'] or 'N/A',
+                'url': r['html_url']
             }
             for r in top_repos
         ]
@@ -436,6 +480,25 @@ def update_readme_cache_busting(timestamp: str):
     print(f"Updated README.md cache-busting parameters to ?v={timestamp}")
 
 
+def generate_resume_data() -> Dict[str, Any]:
+    """Generate structured resume data for HTML site consumption"""
+    data = {
+        'personal': PERSONAL_INFO,
+        'skills': SKILLS,
+        'updated_at': datetime.now().isoformat()
+    }
+
+    # Ensure cache directory exists
+    os.makedirs('cache', exist_ok=True)
+
+    # Save to JSON file
+    with open('cache/resume_data.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
+    print("Generated resume_data.json for HTML site")
+    return data
+
+
 def main():
     username = 'kholcomb'
     token = os.getenv('GITHUB_TOKEN')
@@ -468,6 +531,9 @@ def main():
         with open('cache/stats.json', 'w') as f:
             json.dump(stats, f, indent=2)
         print("Saved stats cache")
+
+        # Generate resume data for HTML site
+        generate_resume_data()
 
         # Update README with cache-busting parameters
         # Use a simpler timestamp format for the query parameter
