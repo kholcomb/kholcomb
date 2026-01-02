@@ -10,3 +10,5 @@ env/
 *.jpg
 *.jpeg
 *.png
+WORKFLOW.md
+sync.sh
