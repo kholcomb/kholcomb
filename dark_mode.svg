@@ -40,22 +40,12 @@
 
     <!-- ASCII Art -->
     <g>
-        <text x="50" y="100" class="ascii">%%%%%%%%%%%%%%%%%%%%%%%%%%SSSS</text>
-        <text x="50" y="114" class="ascii">SSSSSSSSSSSSS###SSSSSSSSSSSSSS</text>
-        <text x="50" y="128" class="ascii">SSSSSSSS###S%%S#@@@#SS#SSSSSSS</text>
-        <text x="50" y="142" class="ascii">SSSSS%S##?+;;;;+*?S@#SSSSSSS%?</text>
-        <text x="50" y="156" class="ascii">SSSSS%S@#*+;;;;;;;+S@SSSSSSS%+</text>
-        <text x="50" y="170" class="ascii">SSSSSSS@S****;;*?**%#SSSSSSSS#</text>
-        <text x="50" y="184" class="ascii">SSSSSSS%?++**+;**++*?SSSSSSSS#</text>
-        <text x="50" y="198" class="ascii">SSSSSSS?*+;;++++;;;+*SSSSSSSSS</text>
-        <text x="50" y="212" class="ascii">SSSSSSSS?+++*+++**+*SSSSSSSSSS</text>
-        <text x="50" y="226" class="ascii">SSSSSSSSS?+++;;;+++%###SSSSS##</text>
-        <text x="50" y="240" class="ascii">SSSSSSSSSS?*++;++**?S#########</text>
-        <text x="50" y="254" class="ascii">##########?*******+;+S########</text>
-        <text x="50" y="268" class="ascii">SSSSSSSSSS***+++++;::%##S#####</text>
-        <text x="50" y="282" class="ascii">SSS#SSS##%;;++;;;:::;SSSSS###S</text>
-        <text x="50" y="296" class="ascii">SSSSS####*::;***;:::*SSSS###SS</text>
-        <text x="50" y="310" class="ascii">SS######%;;;%##S+:::?SSSSSSSSS</text>
+        <text x="50" y="100" class="ascii">╔═══════╗</text>
+        <text x="50" y="114" class="ascii">  ║ ☁️ 🔐 ║</text>
+        <text x="50" y="128" class="ascii">  ║  ═══  ║</text>
+        <text x="50" y="142" class="ascii">  ║ ║   ║ ║</text>
+        <text x="50" y="156" class="ascii">  ║ ╚═══╝ ║</text>
+        <text x="50" y="170" class="ascii">  ╚═══════╝</text>
     </g>
 
     <!-- Info Section -->
@@ -70,7 +60,7 @@
         <text x="480" y="196" class="value">CCSP | CISSP</text>
         <text x="300" y="220" class="comment"></text>
         <text x="300" y="244" class="key">Repos:</text>
-        <text x="480" y="244" class="value">4</text>
+        <text x="480" y="244" class="value">5</text>
         <text x="300" y="268" class="key">Stars:</text>
         <text x="480" y="268" class="value">⭐ 0</text>
         <text x="300" y="292" class="key">Followers:</text>
@@ -94,8 +84,9 @@
         <text x="300" y="652" class="key">Code:</text>
         <text x="480" y="652" class="value"></text>
         <text x="300" y="676" class="value">  • HCL (1 repos)</text>
+        <text x="300" y="700" class="value">  • Python (1 repos)</text>
     </g>
 
     <!-- Footer -->
-    <text x="50" y="670" class="footer">Last updated: January 01, 2026 at 07:44 PM UTC</text>
+    <text x="50" y="670" class="footer">Last updated: January 02, 2026 at 03:52 AM UTC</text>
 </svg>
