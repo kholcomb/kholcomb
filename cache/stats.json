@@ -4,28 +4,28 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 7,
+  "public_repos": 8,
   "total_stars": 0,
   "language_percentages": [
     [
+      "Python",
+      28.56329486424934
+    ],
+    [
       "Shell",
-      32.638834726681765
+      28.46697999209578
     ],
     [
       "C++",
-      24.39819744525877
-    ],
-    [
-      "Python",
-      19.64329842231306
+      21.12401943641228
     ],
     [
       "HCL",
-      10.896277571756144
+      9.434023957169382
     ],
     [
       "JavaScript",
-      6.955549407289855
+      6.932325119202982
     ]
   ],
   "top_repos": [
@@ -33,7 +33,7 @@
       "name": "DevSecOps_Arena",
       "description": "Gamified Security Arena for building DevSecOps skillsets",
       "stars": 0,
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/kholcomb/DevSecOps_Arena"
     },
     {
@@ -51,5 +51,5 @@
       "url": "https://github.com/kholcomb/k8s_gaming"
     }
   ],
-  "updated_at": "January 02, 2026 at 06:57 PM UTC"
+  "updated_at": "January 03, 2026 at 12:12 AM UTC"
 }
