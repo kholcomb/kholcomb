@@ -89,29 +89,29 @@
     <text x="830" y="712" class="comment">│</text>
     <text x="50" y="727" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="761" class="comment">│</text>
-    <rect x="70" y="747" width="119.09015348811435" height="20" fill="#268bd2" rx="3"/>
+    <rect x="70" y="747" width="138.90328032848845" height="20" fill="#268bd2" rx="3"/>
     <text x="80" y="761" class="header" style="font-size: 12px; fill: #fdf6e3">Python</text>
-    <text x="480" y="761" class="value" style="font-size: 12px">29.8%</text>
+    <text x="480" y="761" class="value" style="font-size: 12px">34.7%</text>
     <text x="830" y="761" class="comment">│</text>
     <text x="50" y="791" class="comment">│</text>
-    <rect x="70" y="777" width="113.15648030143515" height="20" fill="#859900" rx="3"/>
+    <rect x="70" y="777" width="105.68482897002139" height="20" fill="#859900" rx="3"/>
     <text x="80" y="791" class="header" style="font-size: 12px; fill: #fdf6e3">Shell</text>
-    <text x="480" y="791" class="value" style="font-size: 12px">28.3%</text>
+    <text x="480" y="791" class="value" style="font-size: 12px">26.4%</text>
     <text x="830" y="791" class="comment">│</text>
     <text x="50" y="821" class="comment">│</text>
-    <rect x="70" y="807" width="82.33556823848839" height="20" fill="#b58900" rx="3"/>
+    <rect x="70" y="807" width="76.2782090218819" height="20" fill="#b58900" rx="3"/>
     <text x="80" y="821" class="header" style="font-size: 12px; fill: #fdf6e3">C++</text>
-    <text x="480" y="821" class="value" style="font-size: 12px">20.6%</text>
+    <text x="480" y="821" class="value" style="font-size: 12px">19.1%</text>
     <text x="830" y="821" class="comment">│</text>
     <text x="50" y="851" class="comment">│</text>
-    <rect x="70" y="837" width="36.77120851110988" height="20" fill="#dc322f" rx="3"/>
+    <rect x="70" y="837" width="34.06598131045019" height="20" fill="#dc322f" rx="3"/>
     <text x="80" y="851" class="header" style="font-size: 12px; fill: #fdf6e3">HCL</text>
-    <text x="480" y="851" class="value" style="font-size: 12px">9.2%</text>
+    <text x="480" y="851" class="value" style="font-size: 12px">8.5%</text>
     <text x="830" y="851" class="comment">│</text>
     <text x="50" y="881" class="comment">│</text>
-    <rect x="70" y="867" width="27.020280379010366" height="20" fill="#6c71c4" rx="3"/>
+    <rect x="70" y="867" width="25.03242084405205" height="20" fill="#6c71c4" rx="3"/>
     <text x="80" y="881" class="header" style="font-size: 12px; fill: #fdf6e3">JavaScript</text>
-    <text x="480" y="881" class="value" style="font-size: 12px">6.8%</text>
+    <text x="480" y="881" class="value" style="font-size: 12px">6.3%</text>
     <text x="830" y="881" class="comment">│</text>
     <text x="50" y="912" class="comment">╰──────────────────────────────────────────────────────────────────────────────────╯</text>
     </g>
@@ -156,5 +156,5 @@
     </g>
 
     <!-- Footer -->
-    <text x="50" y="1262" class="footer">Last updated: January 03, 2026 at 12:56 AM UTC</text>
+    <text x="50" y="1262" class="footer">Last updated: January 03, 2026 at 08:03 AM UTC</text>
 </svg>
