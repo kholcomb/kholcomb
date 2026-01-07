@@ -4,31 +4,38 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 8,
+  "public_repos": 9,
   "total_stars": 0,
   "language_percentages": [
     [
       "Python",
-      37.66747005032962
+      29.35537194805714
+    ],
+    [
+      "TypeScript",
+      21.981036961684833
     ],
     [
       "Shell",
-      25.287824826510686
+      19.707548782747057
     ],
     [
       "C++",
-      18.160585476029265
+      14.153080648395132
     ],
     [
       "HCL",
-      8.110549177102099
-    ],
-    [
-      "JavaScript",
-      5.95980718792089
+      6.320790525052994
     ]
   ],
   "top_repos": [
+    {
+      "name": "AiDP",
+      "description": "A development platform that focuses on consumption via Ai/LLM Agents",
+      "stars": 0,
+      "language": "TypeScript",
+      "url": "https://github.com/kholcomb/AiDP"
+    },
     {
       "name": "DevSecOps_Arena",
       "description": "Gamified Security Arena for building DevSecOps skillsets",
@@ -42,14 +49,7 @@
       "stars": 0,
       "language": "HCL",
       "url": "https://github.com/kholcomb/gateway_eks"
-    },
-    {
-      "name": "k8s_gaming",
-      "description": "Interactive Kubernetes learning game with real-time cluster visualization",
-      "stars": 0,
-      "language": "Shell",
-      "url": "https://github.com/kholcomb/k8s_gaming"
     }
   ],
-  "updated_at": "January 06, 2026 at 12:59 AM UTC"
+  "updated_at": "January 07, 2026 at 12:59 AM UTC"
 }

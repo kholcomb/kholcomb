@@ -89,29 +89,29 @@
     <text x="830" y="712" class="comment">│</text>
     <text x="50" y="727" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="761" class="comment">│</text>
-    <rect x="70" y="747" width="150.66988020131848" height="20" fill="#268bd2" rx="3"/>
+    <rect x="70" y="747" width="117.42148779222856" height="20" fill="#268bd2" rx="3"/>
     <text x="80" y="761" class="header" style="font-size: 12px; fill: #fdf6e3">Python</text>
-    <text x="480" y="761" class="value" style="font-size: 12px">37.7%</text>
+    <text x="480" y="761" class="value" style="font-size: 12px">29.4%</text>
     <text x="830" y="761" class="comment">│</text>
     <text x="50" y="791" class="comment">│</text>
-    <rect x="70" y="777" width="101.15129930604274" height="20" fill="#859900" rx="3"/>
-    <text x="80" y="791" class="header" style="font-size: 12px; fill: #fdf6e3">Shell</text>
-    <text x="480" y="791" class="value" style="font-size: 12px">25.3%</text>
+    <rect x="70" y="777" width="87.92414784673933" height="20" fill="#859900" rx="3"/>
+    <text x="80" y="791" class="header" style="font-size: 12px; fill: #fdf6e3">TypeScript</text>
+    <text x="480" y="791" class="value" style="font-size: 12px">22.0%</text>
     <text x="830" y="791" class="comment">│</text>
     <text x="50" y="821" class="comment">│</text>
-    <rect x="70" y="807" width="72.64234190411706" height="20" fill="#b58900" rx="3"/>
-    <text x="80" y="821" class="header" style="font-size: 12px; fill: #fdf6e3">C++</text>
-    <text x="480" y="821" class="value" style="font-size: 12px">18.2%</text>
+    <rect x="70" y="807" width="78.83019513098823" height="20" fill="#b58900" rx="3"/>
+    <text x="80" y="821" class="header" style="font-size: 12px; fill: #fdf6e3">Shell</text>
+    <text x="480" y="821" class="value" style="font-size: 12px">19.7%</text>
     <text x="830" y="821" class="comment">│</text>
     <text x="50" y="851" class="comment">│</text>
-    <rect x="70" y="837" width="32.442196708408396" height="20" fill="#dc322f" rx="3"/>
-    <text x="80" y="851" class="header" style="font-size: 12px; fill: #fdf6e3">HCL</text>
-    <text x="480" y="851" class="value" style="font-size: 12px">8.1%</text>
+    <rect x="70" y="837" width="56.61232259358053" height="20" fill="#dc322f" rx="3"/>
+    <text x="80" y="851" class="header" style="font-size: 12px; fill: #fdf6e3">C++</text>
+    <text x="480" y="851" class="value" style="font-size: 12px">14.2%</text>
     <text x="830" y="851" class="comment">│</text>
     <text x="50" y="881" class="comment">│</text>
-    <rect x="70" y="867" width="23.83922875168356" height="20" fill="#6c71c4" rx="3"/>
-    <text x="80" y="881" class="header" style="font-size: 12px; fill: #fdf6e3">JavaScript</text>
-    <text x="480" y="881" class="value" style="font-size: 12px">6.0%</text>
+    <rect x="70" y="867" width="25.283162100211975" height="20" fill="#6c71c4" rx="3"/>
+    <text x="80" y="881" class="header" style="font-size: 12px; fill: #fdf6e3">HCL</text>
+    <text x="480" y="881" class="value" style="font-size: 12px">6.3%</text>
     <text x="830" y="881" class="comment">│</text>
     <text x="50" y="912" class="comment">╰──────────────────────────────────────────────────────────────────────────────────╯</text>
     </g>
@@ -124,37 +124,37 @@
     <text x="830" y="982" class="comment">│</text>
     <text x="50" y="997" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1017" class="comment">│</text>
-    <text x="60" y="1017" class="value" style="font-weight: 600">DevSecOps_Arena <tspan class="comment"></tspan></text>
+    <text x="60" y="1017" class="value" style="font-weight: 600">AiDP <tspan class="comment"></tspan></text>
     <text x="830" y="1017" class="comment">│</text>
     <text x="50" y="1037" class="comment">│</text>
-    <text x="60" y="1037" class="comment" style="font-size: 13px">Gamified Security Arena for building DevSecOps skillsets</text>
+    <text x="60" y="1037" class="comment" style="font-size: 13px">A development platform that focuses on consumption via Ai/LLM Agents</text>
     <text x="830" y="1037" class="comment">│</text>
     <text x="50" y="1055" class="comment">│</text>
-    <text x="60" y="1055" class="key" style="font-size: 11px">Python</text>
+    <text x="60" y="1055" class="key" style="font-size: 11px">TypeScript</text>
     <text x="830" y="1055" class="comment">│</text>
     <text x="50" y="1072" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1082" class="comment">│</text>
-    <text x="60" y="1082" class="value" style="font-weight: 600">gateway_eks <tspan class="comment"></tspan></text>
+    <text x="60" y="1082" class="value" style="font-weight: 600">DevSecOps_Arena <tspan class="comment"></tspan></text>
     <text x="830" y="1082" class="comment">│</text>
     <text x="50" y="1102" class="comment">│</text>
-    <text x="60" y="1102" class="comment" style="font-size: 13px">[PoC] EKS deployment of AI-Governance stack</text>
+    <text x="60" y="1102" class="comment" style="font-size: 13px">Gamified Security Arena for building DevSecOps skillsets</text>
     <text x="830" y="1102" class="comment">│</text>
     <text x="50" y="1120" class="comment">│</text>
-    <text x="60" y="1120" class="key" style="font-size: 11px">HCL</text>
+    <text x="60" y="1120" class="key" style="font-size: 11px">Python</text>
     <text x="830" y="1120" class="comment">│</text>
     <text x="50" y="1137" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1147" class="comment">│</text>
-    <text x="60" y="1147" class="value" style="font-weight: 600">k8s_gaming <tspan class="comment"></tspan></text>
+    <text x="60" y="1147" class="value" style="font-weight: 600">gateway_eks <tspan class="comment"></tspan></text>
     <text x="830" y="1147" class="comment">│</text>
     <text x="50" y="1167" class="comment">│</text>
-    <text x="60" y="1167" class="comment" style="font-size: 13px">Interactive Kubernetes learning game with real-time cluster visualizat...</text>
+    <text x="60" y="1167" class="comment" style="font-size: 13px">[PoC] EKS deployment of AI-Governance stack</text>
     <text x="830" y="1167" class="comment">│</text>
     <text x="50" y="1185" class="comment">│</text>
-    <text x="60" y="1185" class="key" style="font-size: 11px">Shell</text>
+    <text x="60" y="1185" class="key" style="font-size: 11px">HCL</text>
     <text x="830" y="1185" class="comment">│</text>
     <text x="50" y="1212" class="comment">╰──────────────────────────────────────────────────────────────────────────────────╯</text>
     </g>
 
     <!-- Footer -->
-    <text x="50" y="1262" class="footer">Last updated: January 06, 2026 at 12:59 AM UTC</text>
+    <text x="50" y="1262" class="footer">Last updated: January 07, 2026 at 12:59 AM UTC</text>
 </svg>
