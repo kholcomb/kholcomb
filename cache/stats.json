@@ -4,28 +4,28 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 9,
+  "public_repos": 10,
   "total_stars": 0,
   "language_percentages": [
     [
       "Python",
-      29.143213769854686
+      31.935865840214884
     ],
     [
       "TypeScript",
-      22.54489835961713
+      21.649728400532485
     ],
     [
       "Shell",
-      19.565117691974912
+      18.788263198135944
     ],
     [
       "C++",
-      14.05079300538284
+      13.49289083172456
     ],
     [
       "HCL",
-      6.275108685116935
+      6.02594860041371
     ]
   ],
   "top_repos": [
@@ -51,5 +51,5 @@
       "url": "https://github.com/kholcomb/gateway_eks"
     }
   ],
-  "updated_at": "February 27, 2026 at 01:09 AM UTC"
+  "updated_at": "February 28, 2026 at 01:04 AM UTC"
 }
