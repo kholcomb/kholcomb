@@ -24,8 +24,7 @@ PERSONAL_INFO = {
         {'name': 'CISSP', 'issuer': 'ISC2', 'credential': '521659'}
     ],
     'social': {
-        'github': 'kholcomb',
-        'linkedin': 'kyleholcomb'
+        'github': 'kholcomb'
     }
 }
 

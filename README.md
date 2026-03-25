@@ -6,14 +6,6 @@
 
 ---
 
-<div align="center">
-
-### Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kyleholcomb/)
-</div>
-
----
 
 <p align="center">
   <sub>Last updated: <i>Automatically via GitHub Actions</i> • Built with <a href="https://github.com/kholcomb/kholcomb/blob/main/today.py">Python</a></sub>
