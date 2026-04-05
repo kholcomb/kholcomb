@@ -5,7 +5,7 @@
   "followers": 2,
   "following": 12,
   "public_repos": 11,
-  "total_stars": 0,
+  "total_stars": 1,
   "language_percentages": [
     [
       "Python",
@@ -30,6 +30,13 @@
   ],
   "top_repos": [
     {
+      "name": "heckler",
+      "description": "Detect dangerous invisible Unicode characters in source code and dependencies",
+      "stars": 1,
+      "language": "Python",
+      "url": "https://github.com/kholcomb/heckler"
+    },
+    {
       "name": "AiDP",
       "description": "A development platform that focuses on consumption via Ai/LLM Agents",
       "stars": 0,
@@ -42,14 +49,7 @@
       "stars": 0,
       "language": "Python",
       "url": "https://github.com/kholcomb/DevSecOps_Arena"
-    },
-    {
-      "name": "gateway_eks",
-      "description": "[PoC] EKS deployment of AI-Governance stack",
-      "stars": 0,
-      "language": "HCL",
-      "url": "https://github.com/kholcomb/gateway_eks"
     }
   ],
-  "updated_at": "April 04, 2026 at 01:15 AM UTC"
+  "updated_at": "April 05, 2026 at 01:24 AM UTC"
 }

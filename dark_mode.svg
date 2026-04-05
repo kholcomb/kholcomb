@@ -124,37 +124,37 @@
     <text x="830" y="982" class="comment">│</text>
     <text x="50" y="997" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1017" class="comment">│</text>
-    <text x="60" y="1017" class="value" style="font-weight: 600">AiDP <tspan class="comment"></tspan></text>
+    <text x="60" y="1017" class="value" style="font-weight: 600">heckler <tspan class="comment">★ 1</tspan></text>
     <text x="830" y="1017" class="comment">│</text>
     <text x="50" y="1037" class="comment">│</text>
-    <text x="60" y="1037" class="comment" style="font-size: 13px">A development platform that focuses on consumption via Ai/LLM Agents</text>
+    <text x="60" y="1037" class="comment" style="font-size: 13px">Detect dangerous invisible Unicode characters in source code and depen...</text>
     <text x="830" y="1037" class="comment">│</text>
     <text x="50" y="1055" class="comment">│</text>
-    <text x="60" y="1055" class="key" style="font-size: 11px">TypeScript</text>
+    <text x="60" y="1055" class="key" style="font-size: 11px">Python</text>
     <text x="830" y="1055" class="comment">│</text>
     <text x="50" y="1072" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1082" class="comment">│</text>
-    <text x="60" y="1082" class="value" style="font-weight: 600">DevSecOps_Arena <tspan class="comment"></tspan></text>
+    <text x="60" y="1082" class="value" style="font-weight: 600">AiDP <tspan class="comment"></tspan></text>
     <text x="830" y="1082" class="comment">│</text>
     <text x="50" y="1102" class="comment">│</text>
-    <text x="60" y="1102" class="comment" style="font-size: 13px">Gamified Security Arena for building DevSecOps skillsets</text>
+    <text x="60" y="1102" class="comment" style="font-size: 13px">A development platform that focuses on consumption via Ai/LLM Agents</text>
     <text x="830" y="1102" class="comment">│</text>
     <text x="50" y="1120" class="comment">│</text>
-    <text x="60" y="1120" class="key" style="font-size: 11px">Python</text>
+    <text x="60" y="1120" class="key" style="font-size: 11px">TypeScript</text>
     <text x="830" y="1120" class="comment">│</text>
     <text x="50" y="1137" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1147" class="comment">│</text>
-    <text x="60" y="1147" class="value" style="font-weight: 600">gateway_eks <tspan class="comment"></tspan></text>
+    <text x="60" y="1147" class="value" style="font-weight: 600">DevSecOps_Arena <tspan class="comment"></tspan></text>
     <text x="830" y="1147" class="comment">│</text>
     <text x="50" y="1167" class="comment">│</text>
-    <text x="60" y="1167" class="comment" style="font-size: 13px">[PoC] EKS deployment of AI-Governance stack</text>
+    <text x="60" y="1167" class="comment" style="font-size: 13px">Gamified Security Arena for building DevSecOps skillsets</text>
     <text x="830" y="1167" class="comment">│</text>
     <text x="50" y="1185" class="comment">│</text>
-    <text x="60" y="1185" class="key" style="font-size: 11px">HCL</text>
+    <text x="60" y="1185" class="key" style="font-size: 11px">Python</text>
     <text x="830" y="1185" class="comment">│</text>
     <text x="50" y="1212" class="comment">╰──────────────────────────────────────────────────────────────────────────────────╯</text>
     </g>
 
     <!-- Footer -->
-    <text x="50" y="1262" class="footer">Last updated: April 04, 2026 at 01:15 AM UTC</text>
+    <text x="50" y="1262" class="footer">Last updated: April 05, 2026 at 01:24 AM UTC</text>
 </svg>
