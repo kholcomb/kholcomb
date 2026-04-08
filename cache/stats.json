@@ -4,28 +4,28 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 11,
+  "public_repos": 13,
   "total_stars": 1,
   "language_percentages": [
     [
-      "Python",
-      31.18838381412615
+      "TypeScript",
+      34.83594555621403
     ],
     [
-      "TypeScript",
-      24.480692626741675
+      "Python",
+      33.3921887295756
     ],
     [
       "Shell",
-      16.113867253771534
+      11.547528670146546
     ],
     [
       "C++",
-      11.511061669251518
+      8.249063527465466
     ],
     [
       "JavaScript",
-      6.934827641235956
+      4.973054295282732
     ]
   ],
   "top_repos": [
@@ -51,5 +51,5 @@
       "url": "https://github.com/kholcomb/DevSecOps_Arena"
     }
   ],
-  "updated_at": "April 07, 2026 at 01:22 AM UTC"
+  "updated_at": "April 08, 2026 at 01:23 AM UTC"
 }
