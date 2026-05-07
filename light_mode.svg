@@ -89,29 +89,29 @@
     <text x="830" y="712" class="comment">│</text>
     <text x="50" y="727" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="761" class="comment">│</text>
-    <rect x="70" y="747" width="139.3437822248561" height="20" fill="#268bd2" rx="3"/>
+    <rect x="70" y="747" width="137.06258574909728" height="20" fill="#268bd2" rx="3"/>
     <text x="80" y="761" class="header" style="font-size: 12px; fill: #fdf6e3">TypeScript</text>
-    <text x="480" y="761" class="value" style="font-size: 12px">34.8%</text>
+    <text x="480" y="761" class="value" style="font-size: 12px">34.3%</text>
     <text x="830" y="761" class="comment">│</text>
     <text x="50" y="791" class="comment">│</text>
-    <rect x="70" y="777" width="133.5687549183024" height="20" fill="#859900" rx="3"/>
+    <rect x="70" y="777" width="135.29038995788483" height="20" fill="#859900" rx="3"/>
     <text x="80" y="791" class="header" style="font-size: 12px; fill: #fdf6e3">Python</text>
-    <text x="480" y="791" class="value" style="font-size: 12px">33.4%</text>
+    <text x="480" y="791" class="value" style="font-size: 12px">33.8%</text>
     <text x="830" y="791" class="comment">│</text>
     <text x="50" y="821" class="comment">│</text>
-    <rect x="70" y="807" width="46.190114680586184" height="20" fill="#b58900" rx="3"/>
+    <rect x="70" y="807" width="46.76644164283325" height="20" fill="#b58900" rx="3"/>
     <text x="80" y="821" class="header" style="font-size: 12px; fill: #fdf6e3">Shell</text>
-    <text x="480" y="821" class="value" style="font-size: 12px">11.5%</text>
+    <text x="480" y="821" class="value" style="font-size: 12px">11.7%</text>
     <text x="830" y="821" class="comment">│</text>
     <text x="50" y="851" class="comment">│</text>
-    <rect x="70" y="837" width="32.996254109861866" height="20" fill="#dc322f" rx="3"/>
+    <rect x="70" y="837" width="32.456072571892726" height="20" fill="#dc322f" rx="3"/>
     <text x="80" y="851" class="header" style="font-size: 12px; fill: #fdf6e3">C++</text>
-    <text x="480" y="851" class="value" style="font-size: 12px">8.2%</text>
+    <text x="480" y="851" class="value" style="font-size: 12px">8.1%</text>
     <text x="830" y="851" class="comment">│</text>
     <text x="50" y="881" class="comment">│</text>
-    <rect x="70" y="867" width="19.892217181130928" height="20" fill="#6c71c4" rx="3"/>
+    <rect x="70" y="867" width="19.56656177689194" height="20" fill="#6c71c4" rx="3"/>
     <text x="80" y="881" class="header" style="font-size: 12px; fill: #fdf6e3">JavaScript</text>
-    <text x="480" y="881" class="value" style="font-size: 12px">5.0%</text>
+    <text x="480" y="881" class="value" style="font-size: 12px">4.9%</text>
     <text x="830" y="881" class="comment">│</text>
     <text x="50" y="912" class="comment">╰──────────────────────────────────────────────────────────────────────────────────╯</text>
     </g>
@@ -124,37 +124,37 @@
     <text x="830" y="982" class="comment">│</text>
     <text x="50" y="997" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1017" class="comment">│</text>
-    <text x="60" y="1017" class="value" style="font-weight: 600">heckler <tspan class="comment">★ 1</tspan></text>
+    <text x="60" y="1017" class="value" style="font-weight: 600">dab-policy-check <tspan class="comment">★ 1</tspan></text>
     <text x="830" y="1017" class="comment">│</text>
     <text x="50" y="1037" class="comment">│</text>
-    <text x="60" y="1037" class="comment" style="font-size: 13px">Detect dangerous invisible Unicode characters in source code and depen...</text>
+    <text x="60" y="1037" class="comment" style="font-size: 13px">Pre-deployment security gate for Databricks Asset Bundles: Rego policy...</text>
     <text x="830" y="1037" class="comment">│</text>
     <text x="50" y="1055" class="comment">│</text>
     <text x="60" y="1055" class="key" style="font-size: 11px">Python</text>
     <text x="830" y="1055" class="comment">│</text>
     <text x="50" y="1072" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1082" class="comment">│</text>
-    <text x="60" y="1082" class="value" style="font-weight: 600">AiDP <tspan class="comment"></tspan></text>
+    <text x="60" y="1082" class="value" style="font-weight: 600">heckler <tspan class="comment">★ 1</tspan></text>
     <text x="830" y="1082" class="comment">│</text>
     <text x="50" y="1102" class="comment">│</text>
-    <text x="60" y="1102" class="comment" style="font-size: 13px">A development platform that focuses on consumption via Ai/LLM Agents</text>
+    <text x="60" y="1102" class="comment" style="font-size: 13px">Detect dangerous invisible Unicode characters in source code and depen...</text>
     <text x="830" y="1102" class="comment">│</text>
     <text x="50" y="1120" class="comment">│</text>
-    <text x="60" y="1120" class="key" style="font-size: 11px">TypeScript</text>
+    <text x="60" y="1120" class="key" style="font-size: 11px">Python</text>
     <text x="830" y="1120" class="comment">│</text>
     <text x="50" y="1137" class="comment">├──────────────────────────────────────────────────────────────────────────────────┤</text>
     <text x="50" y="1147" class="comment">│</text>
-    <text x="60" y="1147" class="value" style="font-weight: 600">DevSecOps_Arena <tspan class="comment"></tspan></text>
+    <text x="60" y="1147" class="value" style="font-weight: 600">AiDP <tspan class="comment"></tspan></text>
     <text x="830" y="1147" class="comment">│</text>
     <text x="50" y="1167" class="comment">│</text>
-    <text x="60" y="1167" class="comment" style="font-size: 13px">Gamified Security Arena for building DevSecOps skillsets</text>
+    <text x="60" y="1167" class="comment" style="font-size: 13px">A development platform that focuses on consumption via Ai/LLM Agents</text>
     <text x="830" y="1167" class="comment">│</text>
     <text x="50" y="1185" class="comment">│</text>
-    <text x="60" y="1185" class="key" style="font-size: 11px">Python</text>
+    <text x="60" y="1185" class="key" style="font-size: 11px">TypeScript</text>
     <text x="830" y="1185" class="comment">│</text>
     <text x="50" y="1212" class="comment">╰──────────────────────────────────────────────────────────────────────────────────╯</text>
     </g>
 
     <!-- Footer -->
-    <text x="50" y="1262" class="footer">Last updated: May 06, 2026 at 01:52 AM UTC</text>
+    <text x="50" y="1262" class="footer">Last updated: May 07, 2026 at 01:57 AM UTC</text>
 </svg>

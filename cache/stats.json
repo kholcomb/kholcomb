@@ -4,31 +4,38 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 13,
-  "total_stars": 1,
+  "public_repos": 14,
+  "total_stars": 2,
   "language_percentages": [
     [
       "TypeScript",
-      34.83594555621403
+      34.26564643727432
     ],
     [
       "Python",
-      33.3921887295756
+      33.82259748947121
     ],
     [
       "Shell",
-      11.547528670146546
+      11.691610410708313
     ],
     [
       "C++",
-      8.249063527465466
+      8.114018142973181
     ],
     [
       "JavaScript",
-      4.973054295282732
+      4.891640444222985
     ]
   ],
   "top_repos": [
+    {
+      "name": "dab-policy-check",
+      "description": "Pre-deployment security gate for Databricks Asset Bundles: Rego policy pack, rich reporter, time-bounded exceptions, and CI integration.",
+      "stars": 1,
+      "language": "Python",
+      "url": "https://github.com/kholcomb/dab-policy-check"
+    },
     {
       "name": "heckler",
       "description": "Detect dangerous invisible Unicode characters in source code and dependencies",
@@ -42,14 +49,7 @@
       "stars": 0,
       "language": "TypeScript",
       "url": "https://github.com/kholcomb/AiDP"
-    },
-    {
-      "name": "DevSecOps_Arena",
-      "description": "Gamified Security Arena for building DevSecOps skillsets",
-      "stars": 0,
-      "language": "Python",
-      "url": "https://github.com/kholcomb/DevSecOps_Arena"
     }
   ],
-  "updated_at": "May 06, 2026 at 01:52 AM UTC"
+  "updated_at": "May 07, 2026 at 01:57 AM UTC"
 }
