@@ -4,28 +4,28 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 14,
+  "public_repos": 10,
   "total_stars": 2,
   "language_percentages": [
     [
-      "TypeScript",
-      34.26564643727432
+      "Python",
+      43.16731324700414
     ],
     [
-      "Python",
-      33.82259748947121
+      "TypeScript",
+      27.116579253744188
     ],
     [
       "Shell",
-      11.691610410708313
-    ],
-    [
-      "C++",
-      8.114018142973181
+      14.746108757217186
     ],
     [
       "JavaScript",
-      4.891640444222985
+      6.196891466150099
+    ],
+    [
+      "HCL",
+      4.624922422555844
     ]
   ],
   "top_repos": [
@@ -44,12 +44,12 @@
       "url": "https://github.com/kholcomb/heckler"
     },
     {
-      "name": "AiDP",
-      "description": "A development platform that focuses on consumption via Ai/LLM Agents",
+      "name": "DevSecOps_Arena",
+      "description": "Gamified Security Arena for building DevSecOps skillsets",
       "stars": 0,
-      "language": "TypeScript",
-      "url": "https://github.com/kholcomb/AiDP"
+      "language": "Python",
+      "url": "https://github.com/kholcomb/DevSecOps_Arena"
     }
   ],
-  "updated_at": "May 17, 2026 at 02:03 AM UTC"
+  "updated_at": "May 18, 2026 at 02:14 AM UTC"
 }
