@@ -4,7 +4,7 @@
   "bio": "Claude Code Enthusiast",
   "followers": 2,
   "following": 12,
-  "public_repos": 10,
+  "public_repos": 11,
   "total_stars": 2,
   "language_percentages": [
     [
@@ -44,12 +44,12 @@
       "url": "https://github.com/kholcomb/heckler"
     },
     {
-      "name": "DevSecOps_Arena",
-      "description": "Gamified Security Arena for building DevSecOps skillsets",
+      "name": "Architecture",
+      "description": "A repository of architectural patterns, documents, and skills to serve as referential support materials",
       "stars": 0,
-      "language": "Python",
-      "url": "https://github.com/kholcomb/DevSecOps_Arena"
+      "language": "N/A",
+      "url": "https://github.com/kholcomb/Architecture"
     }
   ],
-  "updated_at": "May 20, 2026 at 02:13 AM UTC"
+  "updated_at": "May 21, 2026 at 02:12 AM UTC"
 }
