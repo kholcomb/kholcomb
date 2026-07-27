@@ -4,28 +4,28 @@
   "bio": "Claude Code Enthusiast",
   "followers": 3,
   "following": 12,
-  "public_repos": 12,
+  "public_repos": 11,
   "total_stars": 2,
   "language_percentages": [
     [
       "Python",
-      44.20861677694256
+      35.43659034605942
     ],
     [
       "TypeScript",
-      26.619742111071353
+      30.805138993024023
     ],
     [
       "Shell",
-      14.47592664936643
+      16.75196290880243
     ],
     [
       "JavaScript",
-      6.083350380429614
+      7.0398298086614215
     ],
     [
       "HCL",
-      4.540183369742282
+      5.254032108017979
     ]
   ],
   "top_repos": [
@@ -51,5 +51,5 @@
       "url": "https://github.com/kholcomb/Architecture"
     }
   ],
-  "updated_at": "July 26, 2026 at 01:48 AM UTC"
+  "updated_at": "July 27, 2026 at 01:56 AM UTC"
 }
