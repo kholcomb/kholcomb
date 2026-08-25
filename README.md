@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=2026-08-24-0039">
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=2026-08-24-0039">
-  <img alt="Kyle Holcomb's GitHub Stats" src="light_mode.svg?v=2026-08-24-0039">
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=2026-08-25-0038">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=2026-08-25-0038">
+  <img alt="Kyle Holcomb's GitHub Stats" src="light_mode.svg?v=2026-08-25-0038">
 </picture>
 
 ---
