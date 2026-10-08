@@ -9,23 +9,23 @@
   "language_percentages": [
     [
       "Python",
-      35.43659034605942
+      44.41738854236886
     ],
     [
       "TypeScript",
-      30.805138993024023
+      26.520130840752028
     ],
     [
       "Shell",
-      16.75196290880243
+      14.421757625617959
     ],
     [
       "JavaScript",
-      7.0398298086614215
+      6.060586438665501
     ],
     [
       "HCL",
-      5.254032108017979
+      4.523193970256154
     ]
   ],
   "top_repos": [
@@ -51,5 +51,5 @@
       "url": "https://github.com/kholcomb/Architecture"
     }
   ],
-  "updated_at": "October 07, 2026 at 03:16 AM UTC"
+  "updated_at": "October 08, 2026 at 03:31 AM UTC"
 }
