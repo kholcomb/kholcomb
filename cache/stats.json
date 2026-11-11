@@ -4,38 +4,31 @@
   "bio": "Claude Code Enthusiast",
   "followers": 4,
   "following": 12,
-  "public_repos": 11,
-  "total_stars": 2,
+  "public_repos": 5,
+  "total_stars": 1,
   "language_percentages": [
     [
-      "Python",
-      35.43659034605942
-    ],
-    [
       "TypeScript",
-      30.805138993024023
+      56.60957715353286
     ],
     [
-      "Shell",
-      16.75196290880243
-    ],
-    [
-      "JavaScript",
-      7.0398298086614215
+      "Python",
+      20.067987649183003
     ],
     [
       "HCL",
-      5.254032108017979
+      12.060220228370168
+    ],
+    [
+      "Shell",
+      10.283563563272494
+    ],
+    [
+      "CSS",
+      0.41045203335956393
     ]
   ],
   "top_repos": [
-    {
-      "name": "dab-policy-check",
-      "description": "Pre-deployment security gate for Databricks Asset Bundles: Rego policy pack, rich reporter, time-bounded exceptions, and CI integration.",
-      "stars": 1,
-      "language": "Python",
-      "url": "https://github.com/kholcomb/dab-policy-check"
-    },
     {
       "name": "heckler",
       "description": "Detect dangerous invisible Unicode characters in source code and dependencies",
@@ -44,12 +37,19 @@
       "url": "https://github.com/kholcomb/heckler"
     },
     {
-      "name": "Architecture",
-      "description": "A repository of architectural patterns, documents, and skills to serve as referential support materials",
+      "name": "gateway_eks",
+      "description": "[PoC] EKS deployment of AI-Governance stack",
       "stars": 0,
-      "language": "N/A",
-      "url": "https://github.com/kholcomb/Architecture"
+      "language": "HCL",
+      "url": "https://github.com/kholcomb/gateway_eks"
+    },
+    {
+      "name": "kholcomb",
+      "description": "My personal repository CV",
+      "stars": 0,
+      "language": "Python",
+      "url": "https://github.com/kholcomb/kholcomb"
     }
   ],
-  "updated_at": "November 11, 2026 at 03:43 AM UTC"
+  "updated_at": "November 11, 2026 at 07:03 PM UTC"
 }
