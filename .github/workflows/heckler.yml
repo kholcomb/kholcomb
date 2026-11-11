@@ -1,0 +1,21 @@
+name: Heckler
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: read
+
+jobs:
+  heckler:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Scan for dangerous invisible Unicode
+        uses: kholcomb/heckler@daf52987d6c2f136d8341dc40295a0a226d13e28  # v1.1.0

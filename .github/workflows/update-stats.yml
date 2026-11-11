@@ -34,6 +34,11 @@ jobs:
         run: |
           python today.py
 
+      # Pushes made with GITHUB_TOKEN don't trigger the Heckler workflow,
+      # so scan the regenerated files here, before they are committed.
+      - name: Scan for dangerous invisible Unicode
+        uses: kholcomb/heckler@daf52987d6c2f136d8341dc40295a0a226d13e28  # v1.1.0
+
       - name: Commit and push if changed
         run: |
           git config --global user.name 'github-actions[bot]'
