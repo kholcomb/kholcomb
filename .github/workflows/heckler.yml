@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
 
       - name: Scan for dangerous invisible Unicode
         uses: kholcomb/heckler@daf52987d6c2f136d8341dc40295a0a226d13e28  # v1.1.0
