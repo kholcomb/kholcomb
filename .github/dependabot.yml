@@ -5,3 +5,14 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    # Only propose a version once it has been out for 7 days
+    cooldown:
+      default-days: 7
+
+  # Python packages pinned in requirements.txt
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
