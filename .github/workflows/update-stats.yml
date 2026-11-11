@@ -16,10 +16,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5.6.0
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -33,6 +33,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python today.py
+
+      # Pushes made with GITHUB_TOKEN don't trigger the Heckler workflow,
+      # so scan the regenerated files here, before they are committed.
+      - name: Scan for dangerous invisible Unicode
+        uses: kholcomb/heckler@daf52987d6c2f136d8341dc40295a0a226d13e28  # v1.1.0
 
       - name: Commit and push if changed
         run: |

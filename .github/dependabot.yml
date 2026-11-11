@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # Actions used in .github/workflows, including the SHA-pinned kholcomb/heckler
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
