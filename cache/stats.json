@@ -9,23 +9,23 @@
   "language_percentages": [
     [
       "TypeScript",
-      44.974501803354904
+      43.018626892468106
     ],
     [
       "Python",
-      36.65539028411864
+      39.410154159545634
     ],
     [
       "HCL",
-      9.581459952237806
+      9.164776356448634
     ],
     [
       "Shell",
-      8.011140661682536
+      7.662747941374488
     ],
     [
       "CSS",
-      0.32609103693628916
+      0.31190981752895885
     ]
   ],
   "top_repos": [
@@ -51,5 +51,5 @@
       "url": "https://github.com/kholcomb/kholcomb"
     }
   ],
-  "updated_at": "November 12, 2026 at 04:51 AM UTC"
+  "updated_at": "November 13, 2026 at 04:02 AM UTC"
 }
