@@ -4,28 +4,28 @@
   "bio": "Claude Code Enthusiast",
   "followers": 4,
   "following": 12,
-  "public_repos": 5,
+  "public_repos": 4,
   "total_stars": 1,
   "language_percentages": [
     [
-      "TypeScript",
-      43.018626892468106
-    ],
-    [
       "Python",
-      39.410154159545634
+      71.88745209828046
     ],
     [
       "HCL",
-      9.164776356448634
+      14.670001779562005
     ],
     [
       "Shell",
-      7.662747941374488
+      12.265714029912116
     ],
     [
       "CSS",
-      0.31190981752895885
+      0.4992721480860866
+    ],
+    [
+      "JavaScript",
+      0.4651178213739766
     ]
   ],
   "top_repos": [
@@ -51,5 +51,5 @@
       "url": "https://github.com/kholcomb/kholcomb"
     }
   ],
-  "updated_at": "November 13, 2026 at 04:02 AM UTC"
+  "updated_at": "November 14, 2026 at 04:00 AM UTC"
 }
