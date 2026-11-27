@@ -18,4 +18,4 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
 
       - name: Scan for dangerous invisible Unicode
-        uses: kholcomb/heckler@daf52987d6c2f136d8341dc40295a0a226d13e28  # v1.1.0
+        uses: kholcomb/heckler@b79ae5c16f01487aad70298fda7d97a3305877f2  # v2.0.0
